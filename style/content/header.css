@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%; /*#093238*/
+    background: linear-gradient(89.92deg, #093238 26.74%, #334F53 98%);
+    /* background-color: #334F53; */    
+}
+a{
+    text-decoration: none;
+}
+.main-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em; /*16px*/
+    border-bottom: 2px solid #51DD78;
+}
+.main-header img{
+    height: 3.5em;
+}
+.main-header-nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+}
+.main-header-nav ul li{
+    list-style: none;
+    
+}
+.main-header-nav ul li a{
+    color: white;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 0.5em;
+    transition: border .5s ease;
+}
+.main-header-nav ul li a:hover{
+    border-bottom: 2px solid #51DD78;
+}
